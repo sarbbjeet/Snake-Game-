@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#game-frame {
+  position: relative;
+  max-width: 800px;
+  height: 400px;
+  background-color: #fffbfb;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 5px solid #ff0000;
+}
+
+#head {
+  position: absolute;
+  padding: 10px;
+  background-color: #aaaa00;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+#food-item {
+  position: absolute;
+  padding: 10px;
+  background-color: #aa1400;
+  color: #fff;
+  border-radius: 10px;
+  display: none;
+}
+/* .tail {
+  background-color: red;
+  position: absolute;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+} */
