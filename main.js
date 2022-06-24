@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, "static")));
 httpServer.listen(port, () => {
-  console.log(`http server is listening on ${port}`);
+  console.log(`http server is listening on port= ${port}`);
 });
 
 app.get("/", (req, res) => {
